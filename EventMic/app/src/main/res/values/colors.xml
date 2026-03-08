@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main backgrounds -->
+    <color name="background_dark">#0F1117</color>
+    <color name="card_background">#1A1D26</color>
+    <color name="toolbar_color">#12151F</color>
+    <color name="progress_bg">#2A2D3A</color>
+    <color name="divider">#2A2D3A</color>
+
+    <!-- Text -->
+    <color name="text_primary">#EAEAEA</color>
+    <color name="text_secondary">#7A7D8F</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Accent colors -->
+    <color name="accent_blue">#4A9EFF</color>
+    <color name="accent_orange">#FF8C42</color>
+    <color name="accent_purple">#9B6DFF</color>
+    <color name="accent_green">#4ADE80</color>
+
+    <!-- Status colors -->
+    <color name="green_active">#4ADE80</color>
+    <color name="red_live">#FF4444</color>
+    <color name="red_live_bg">#2A1515</color>
+    <color name="red_clip">#FF4444</color>
+    <color name="yellow_warn">#FFB800</color>
+    <color name="gray_inactive">#555770</color>
+
+    <!-- Primary for theme -->
+    <color name="colorPrimary">#4A9EFF</color>
+    <color name="colorPrimaryDark">#2A7DD4</color>
+    <color name="colorAccent">#4ADE80</color>
+</resources>

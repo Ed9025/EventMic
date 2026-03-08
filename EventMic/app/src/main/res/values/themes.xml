@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.EventMic" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background_dark</item>
+        <item name="android:statusBarColor">@color/toolbar_color</item>
+        <item name="android:navigationBarColor">@color/background_dark</item>
+        <item name="switchStyle">@style/SwitchStyle</item>
+    </style>
+
+    <style name="SwitchStyle" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="colorControlActivated">@color/accent_blue</item>
+        <item name="colorSurface">@color/card_background</item>
+    </style>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Procesamiento de Audio"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_noise_cancel"
+            android:summary="Filtra ruido de fondo del ambiente"
+            android:title="Cancelación de Ruido" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_echo_cancel"
+            android:summary="Elimina retroalimentación acústica"
+            android:title="Cancelación de Eco" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_hd_audio"
+            android:summary="48kHz / 16-bit — Mayor calidad de audio"
+            android:title="Audio HD" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Salida de Audio"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_speaker"
+            android:summary="Escuchar audio en tiempo real"
+            android:title="Altavoz del Dispositivo" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="pref_bluetooth"
+            android:summary="Usar micrófono del auricular Bluetooth"
+            android:title="Auricular Bluetooth" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Acerca de"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="pref_version"
+            android:summary="1.0.0"
+            android:title="Versión" />
+
+        <Preference
+            android:key="pref_about"
+            android:summary="Micrófono profesional para animación de eventos"
+            android:title="EventMic Pro" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
